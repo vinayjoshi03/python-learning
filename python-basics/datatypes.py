@@ -5,7 +5,7 @@ print("#1. integer - 1+1 OP: ", 1 + 1, " Type: ", type(1 + 1))
 print("#2. negative integer - 4-1 is OP: ", 4 - 1, " Type: ", type(4 - 1));
 print("#3. float - 3/2 OP: ", 3 / 2, " Type: ", type(3 / 2));
 print("---------------------------------------------------");
-print("#4. float 9.9+1.1 is 11.0 which looks like integer but its float OP: ", 9.9 + 1.1, " Type: ", type(9.9 + 1.1));
+print('#4. float 9.9+1.1 is 11.0 which looks like integer but its float OP: ', 9.9 + 1.1, " Type: ", type(9.9 + 1.1));
 print("---------------------------------------------------");
 print("#5. double multiply - 2 ** 2 = 4 OP: ", 2 ** 2);
 print("#6. double multiply - 2 ** 3 = 8 OP: ", 2 ** 3);
