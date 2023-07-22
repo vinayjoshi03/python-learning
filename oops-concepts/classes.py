@@ -17,14 +17,19 @@ print(returnValue.color, "--",returnValue.type)
 #print(vehicleObject.type, vehicleObject.color)
 
 class GetData:
-    dataList = {
+    jsonDataDump = {
         "name":'vinay',
         "data":[{
             "username":'vinayjoshi'
         }]
     }
+
+    listDataDump = [10,20,30,40]
+
+
     def getName(self):
-        return json.dump(self.dataList)
+        return self.jsonDataDump.values()
+
 
 
 objnew = GetData();
